@@ -6,9 +6,9 @@
     <version value = "1" />
 
     <list>
-        <mapping class = "com.gooseweather.android.db.Province" />
-        <mapping class = "com.gooseweather.android.db.City" />
-        <mapping class = "com.gooseweather.android.db.County" />
+        <mapping class = "com.example.gooseweather.db.Province" />
+        <mapping class = "com.example.gooseweather.db.City" />
+        <mapping class = "com.example.gooseweather.db.County" />
 
 
     </list>
