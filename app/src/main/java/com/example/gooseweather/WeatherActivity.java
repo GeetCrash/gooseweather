@@ -23,6 +23,7 @@ import android.widget.Toast;
 import com.bumptech.glide.Glide;
 import com.example.gooseweather.gson.Forecast;
 import com.example.gooseweather.gson.Weather;
+import com.example.gooseweather.service.AutodateService;
 import com.example.gooseweather.util.HttpUtil;
 import com.example.gooseweather.util.Utility;
 
@@ -232,6 +233,8 @@ public class WeatherActivity extends AppCompatActivity {
         carWashText.setText(carWash);
         sportText.setText(sport);
         weatherLayout.setVisibility(View.VISIBLE);
+        Intent intent = new Intent(this, AutodateService.class);
+        startService(intent);
 
     }
 
